@@ -1,0 +1,46 @@
+23:01:29.165 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to bin/chromedriver_mac
+Setting system property webdriver.firefox.profile to nightwatch
+23:01:29.263 INFO - Java: Oracle Corporation 24.79-b02
+23:01:29.263 INFO - OS: Mac OS X 10.11.6 x86_64
+23:01:29.291 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+23:01:29.459 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
+23:01:29.459 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
+23:01:29.459 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+23:01:29.459 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+23:01:29.465 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+23:01:29.465 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+23:01:29.595 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+23:01:29.595 INFO - Selenium Server is up and running
+23:01:30.149 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Main / Main}]])
+23:01:30.172 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Main / Main}]
+Starting ChromeDriver (v2.9.248307) on port 17125
+23:01:31.905 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Main / Main}]]
+23:01:31.925 INFO - Executing: [get: https://www.google.com.tw/])
+23:01:32.872 INFO - Done: [get: https://www.google.com.tw/]
+23:01:32.886 INFO - Executing: [find elements: By.cssSelector: body])
+23:01:32.935 INFO - Done: [find elements: By.cssSelector: body]
+23:01:32.939 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (ddbd77aabc3ae1d83e8252ddb8cbcff0)] -> css selector: body]])
+23:01:32.959 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (ddbd77aabc3ae1d83e8252ddb8cbcff0)] -> css selector: body]]
+23:01:32.970 INFO - Executing: [find element: By.cssSelector: input[type="text"]])
+23:01:33.083 INFO - Done: [find element: By.cssSelector: input[type="text"]]
+23:01:33.088 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (ddbd77aabc3ae1d83e8252ddb8cbcff0)] -> css selector: input[type="text"]], [g, i, t, h, u, b]])
+23:01:33.202 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (ddbd77aabc3ae1d83e8252ddb8cbcff0)] -> css selector: input[type="text"]], [g, i, t, h, u, b]]
+23:01:33.207 INFO - Executing: [send keys to active: []])
+23:01:33.213 INFO - Done: [send keys to active: []]
+23:01:34.220 INFO - Executing: [find element: By.cssSelector: div.rc a:first-child])
+23:01:34.235 INFO - Done: [find element: By.cssSelector: div.rc a:first-child]
+23:01:34.238 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (ddbd77aabc3ae1d83e8252ddb8cbcff0)] -> css selector: div.rc a:first-child]])
+23:01:34.266 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (ddbd77aabc3ae1d83e8252ddb8cbcff0)] -> css selector: div.rc a:first-child]]
+23:01:35.277 INFO - Executing: [find element: By.cssSelector: input[type="text"]])
+23:01:37.898 INFO - Done: [find element: By.cssSelector: input[type="text"]]
+23:01:37.902 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (ddbd77aabc3ae1d83e8252ddb8cbcff0)] -> css selector: input[type="text"]], [b, b, a, n, d, y, d, d]])
+23:01:37.957 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (ddbd77aabc3ae1d83e8252ddb8cbcff0)] -> css selector: input[type="text"]], [b, b, a, n, d, y, d, d]]
+23:01:37.963 INFO - Executing: [send keys to active: []])
+23:01:37.969 INFO - Done: [send keys to active: []]
+23:01:38.985 INFO - Executing: [find element: By.cssSelector: ul.repo-list h3.repo-list-name a:first-child])
+23:01:39.047 INFO - Done: [find element: By.cssSelector: ul.repo-list h3.repo-list-name a:first-child]
+23:01:39.050 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (ddbd77aabc3ae1d83e8252ddb8cbcff0)] -> css selector: ul.repo-list h3.repo-list-name a:first-child]])
+23:01:39.081 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (ddbd77aabc3ae1d83e8252ddb8cbcff0)] -> css selector: ul.repo-list h3.repo-list-name a:first-child]]
