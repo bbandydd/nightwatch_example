@@ -1,3 +1,5 @@
+require('babel-core/register');
+
 var os = require('os');
 var google_default = require('./env/google.js');
 var url_default = require('./env/url.js');
