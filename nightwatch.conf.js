@@ -19,6 +19,7 @@ var config = {
             "webdriver.firefox.profile" : "nightwatch"
         }
     },
+    "page_objects_path": ['test/google'],
     "test_settings": {
         "default": {
             "screenshots": {
