@@ -1,13 +1,11 @@
-require('babel-core/register');
-
 var os = require('os');
-var google_default = require('./env/google.js');
-var url_default = require('./env/url.js');
+var url = require('./env/url.js');
 
 var config = {
     "src_folders": [
         "test" // Where you are storing your Nightwatch e2e tests
     ],
+    'page_objects_path': ['test/pages'],
     "output_folder": "./reports", // reports (test outcome) output by nightwatch
     "selenium": { // downloaded by selenium-download module (see readme)
         "start_process": true, // tells nightwatch to start/stop the selenium process
@@ -19,7 +17,6 @@ var config = {
             "webdriver.firefox.profile" : "nightwatch"
         }
     },
-    "page_objects_path": ['test/google'],
     "test_settings": {
         "default": {
             "screenshots": {
@@ -28,12 +25,11 @@ var config = {
             },
             "globals": {
                 "waitForConditionTimeout": 5000, // sometimes internet is slow so wait.
-                "google": google_default
+                "url_index": url.index
             },
             "desiredCapabilities": { // use Chrome as the default browser for tests
                 "browserName": "chrome"
             },
-            "launch_url": url_default.index,
             "skip_testcases_on_fail": true
         },
         "chrome": {

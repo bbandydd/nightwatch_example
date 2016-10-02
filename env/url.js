@@ -1,3 +1,3 @@
 module.exports = {
-    index: "https://www.google.com.tw/"
+    index: "http://localhost:8888/"
 }

@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nightwatch --group main"
+    "start": "nightwatch --test test/main/main.js"
   },
   "keywords": [],
   "author": "",
